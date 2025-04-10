@@ -59,6 +59,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
+    <ui:Comment sap:VirtualizedContainerService.HintSize="416,184" sap2010:WorkflowViewState.IdRef="Comment_1" Text="Which panel in UiPath Studio provides a performance analysis of all operations, showing the cumulative percentage of execution time for each activity? &#xD;&#xA;&#xD;&#xA;Answer: Profiling" />
     <ui:StartProcess Arguments="{x:Null}" WorkingDirectory="{x:Null}" DisplayName="Start Process" FileName="02 - Debugging in Studio\Remote Debugging\Remote_Debugging_1.png" sap:VirtualizedContainerService.HintSize="416,111" sap2010:WorkflowViewState.IdRef="StartProcess_1" />
   </Sequence>
 </Activity>

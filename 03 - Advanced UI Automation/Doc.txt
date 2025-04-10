@@ -1,0 +1,1 @@
+﻿https://docs.uipath.com/pt-BR/studio/standalone/2023.10/user-guide/about-the-webdriver-protocol
