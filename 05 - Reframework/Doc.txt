@@ -1,3 +1,6 @@
-﻿Ver config file na pasta
+﻿Ver arquivos na pasta
 Verificar ordem de prioridade da fila de trabalho: 
 	- https://docs.uipath.com/pt-BR/orchestrator/standalone/2024.10/user-guide/about-queues-and-transactions
+	
+Working withou queues
+	- Change the transction type to data row in get tran and process, but in set transction = nothing
