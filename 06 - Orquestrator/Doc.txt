@@ -1,0 +1,2 @@
+﻿https://docs.uipath.com/pt-BR/orchestrator/automation-cloud/latest/user-guide/introduction
+https://academy.uipath.com/learning-plans/automation-developer-professional-training-(v2023.10)?lo_cId=SBEE6RJcae1MzEvUrcUAm
