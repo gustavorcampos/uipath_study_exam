@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Sem título - Bloco de n…",
+  "Type": "Element",
+  "Id": "fOeVQ9gNJ0GILpCuYh5s8g",
+  "Reference": "3MHf0IVJmkSzcHqeDq6XKQ/fOeVQ9gNJ0GILpCuYh5s8g",
+  "ParentRef": "3MHf0IVJmkSzcHqeDq6XKQ/6L2JeaRVAkqNV89FbSe25A",
+  "Created": "2025-04-16T22:05:52.6740833Z",
+  "Updated": "2025-04-16T22:05:52.6740833Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
