@@ -1,0 +1,22 @@
+﻿ Using the Workflow Analyzer, you can:
+
+Edit, disable and enable rules from Studio.
+Run validation or validation and analysis at file or project level.
+Manage errors and warnings in the Error List panel.
+Build custom rules using the UiPath.Activities.Api package.
+Integrate workflow analysis with prebuilt and/or custom rules in CI/CD pipeline configurations.
+
+--
+
+You can access the Workflow Analyzer options by clicking the Analyze File drop-down menu from the Design ribbon tab
+
+--
+
+The Analyzer runs workflow validation (checks for compilation errors) first, and only after it passes, it analyzes (checks for breaches against the defined Workflow Analyzer rules) the workflow.
+
+--
+
+https://docs.uipath.com/pt-BR/studio/standalone/2022.10/user-guide/about-workflow-analyzer
+
+--
+
