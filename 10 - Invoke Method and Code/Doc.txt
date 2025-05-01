@@ -1,0 +1,33 @@
+﻿When is the Invoke Method activity useful?
+
+Here are some situations when we should use the Invoke Method activity:
+
+•
+When you have a class library/DLL in vb.net or c# and want to call that method.
+
+•
+When you want to use a method which does not generate an output (for example, Reverse) and therefore cannot be used in an Assign activity.
+
+•
+When you want to use a method which generates several pieces of output (for example, TryParse which generates a Boolean and an Int32). Several values cannot be assigned using an Assign activity. 
+
+---------------------------
+
+When a class is defined as static, you don't need to define the object. Thus, the static method can be called directly.
+
+If it's a static method, the Target Type is used.
+
+---------------------------
+
+When is the Invoke Code activity useful?
+
+Here are some situations when we should use the Invoke Code activity
+
+•
+When you want to simplify data manipulation procedures in your workflow
+
+•
+When you want to reduce the number of Assign and Invoke Method activities, by replacing several with a single Invoke Code activity.
+
+•
+When you need to write custom code for some steps in the process.
