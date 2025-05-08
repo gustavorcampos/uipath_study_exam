@@ -31,3 +31,7 @@ When you want to reduce the number of Assign and Invoke Method activities, by re
 
 •
 When you need to write custom code for some steps in the process.
+
+---------------------------
+
+https://docs.uipath.com/pt-BR/studio/standalone/2023.10/user-guide/coded-automations-introduction

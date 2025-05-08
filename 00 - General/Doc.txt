@@ -1,0 +1,4 @@
+﻿CV
+https://docs.uipath.com/activities/other/latest/ui-automation/computer-vision-activities
+https://academy.uipath.com/learning-plans/automation-developer-professional-training-(v2023.10)?lo_cId=1bKNsnOdjMEwNISqfU9BYg
+--
