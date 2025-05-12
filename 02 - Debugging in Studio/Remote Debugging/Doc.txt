@@ -1,1 +1,35 @@
 ﻿https://docs.uipath.com/pt-BR/studio/standalone/2023.10/user-guide/remote-debugging
+
+2 Types of connection:
+2.1 - Remote machine connection - Studio sends the list of project dependencies and activity feeds (package sources) to the remote robot, which uses the feeds provided by Studio to download the required packages.
+
+2.2 - Unattended robot connection - Studio sends only list of project dependencies to the remote robot, which uses the Orchestrator feeds and the activity feeds configured on the remote robot to download the required packages.
+
+Important things
+Condition:
+- TCP/IP connectivity exists between the Studio machine and the remote machine.
+- The remote Robot is the same version as Studio.
+
+Configure the remote machine: 
+- Open a command prompt in the UiPath installation folder (by default %PROGRAMFILES%\UiPath\Studio for per-machine installations, %localappdata%\Programs\UiPath\Studio for per-user installations).
+- Run the following command: UiPath.RemoteDebugging.Agent.exe enable --port <port_number> --password <pasword> --verbose
+- The following message is displayed: Agent online and waiting for commands...
+
+Steps in studio:
+- Set up a connection to the remote robot.
+- Make sure remote execution is enabled.
+- Run or debug your project.
+
+--
+The Interactive Sign In feature provides an option to connect Orchestrator, Studio, and UiPath Assistant using the user's account, simplifying the process and offering better sync across the platform
+
+You no longer need to create individual machines or machine templates for each robot. These are created automatically and the robots are seamlessly connected to Orchestrator in the authentication process of the user, fully removing the need for users to configure the robots with Machine Keys.
+--
+
+Meet the conditions:
+
+If interactive authentication is enforced in Orchestrator and you want to run or debug an unattended process, make sure that the remote robot meets one of the following conditions:
+
+- Connected to Orchestrator using interactive sign-in.
+- Connected using the machine key and a user is also signed in from the Assistant.
+- Connected using the machine key, no user is signed in from the Assistant, and a troubleshooting session is enabled in Orchestrator for the machine. For more information, see Debugging Unattended Processes.

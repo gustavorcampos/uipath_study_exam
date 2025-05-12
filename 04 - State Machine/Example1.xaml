@@ -75,7 +75,7 @@
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <StateMachine InitialState="{x:Reference __ReferenceID0}" DisplayName="Example1" sap:VirtualizedContainerService.HintSize="697,466.04" sap2010:WorkflowViewState.IdRef="StateMachine_1">
+  <StateMachine InitialState="{x:Reference __ReferenceID3}" DisplayName="Example1" sap:VirtualizedContainerService.HintSize="896,466.04" sap2010:WorkflowViewState.IdRef="StateMachine_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -85,7 +85,7 @@
         <av:PointCollection x:Key="ConnectorLocation">350,55 350,135</av:PointCollection>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <State x:Name="__ReferenceID0" DisplayName="State 1" sap:VirtualizedContainerService.HintSize="496,772" sap2010:WorkflowViewState.IdRef="State_1">
+    <State x:Name="__ReferenceID3" DisplayName="State 1" sap:VirtualizedContainerService.HintSize="150,60" sap2010:WorkflowViewState.IdRef="State_1">
       <State.Entry>
         <Sequence sap:VirtualizedContainerService.HintSize="450,357" sap2010:WorkflowViewState.IdRef="Sequence_1">
           <sap:WorkflowViewStateService.ViewState>
@@ -93,7 +93,7 @@
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:Comment sap:VirtualizedContainerService.HintSize="416,184" sap2010:WorkflowViewState.IdRef="Comment_1" Text="Você só pode criar um estado inicial, mas é possível ter mais de um estado final.&#xD;&#xA;&#xD;&#xA;A atividade State contém três seções, Entrada, Saída e Transições, já a Final State contém apenas uma seção, Entrada" />
+          <ui:Comment sap:VirtualizedContainerService.HintSize="416,184" sap2010:WorkflowViewState.IdRef="Comment_1" Text="Você só pode criar um estado inicial, mas é possível ter mais de um estado final.&#xA;&#xA;A atividade State contém três seções, Entrada, Saída e Transições, já a Final State contém apenas uma seção, Entrada" />
           <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="Entry State 1" />
         </Sequence>
       </State.Entry>
@@ -117,7 +117,7 @@
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
           <Transition.To>
-            <State x:Name="__ReferenceID2" DisplayName="State" sap:VirtualizedContainerService.HintSize="150,60" sap2010:WorkflowViewState.IdRef="State_2">
+            <State x:Name="__ReferenceID1" DisplayName="State" sap:VirtualizedContainerService.HintSize="150,60" sap2010:WorkflowViewState.IdRef="State_2">
               <State.Entry>
                 <Sequence sap:VirtualizedContainerService.HintSize="468,287" sap2010:WorkflowViewState.IdRef="Sequence_2">
                   <sap:WorkflowViewStateService.ViewState>
@@ -144,16 +144,27 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
               <State.Transitions>
-                <Transition DisplayName="T4" sap:VirtualizedContainerService.HintSize="450,488" sap2010:WorkflowViewState.IdRef="Transition_4">
+                <Transition DisplayName="T4" sap2010:WorkflowViewState.IdRef="Transition_6">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <av:PointCollection x:Key="ConnectorLocation">75,165 50,165 50,105 320,105 320,135</av:PointCollection>
-                      <x:Int32 x:Key="SrcConnectionPointIndex">37</x:Int32>
-                      <x:Int32 x:Key="DestConnectionPointIndex">22</x:Int32>
+                      <av:PointCollection x:Key="ConnectorLocation">150,195 150,400 275,400</av:PointCollection>
+                      <x:Int32 x:Key="SrcConnectionPointIndex">39</x:Int32>
+                      <x:Int32 x:Key="DestConnectionPointIndex">37</x:Int32>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                   <Transition.To>
-                    <x:Reference>__ReferenceID0</x:Reference>
+                    <State x:Name="__ReferenceID0" DisplayName="Final State" sap:VirtualizedContainerService.HintSize="150,60" sap2010:WorkflowViewState.IdRef="State_4" IsFinal="True">
+                      <State.Entry>
+                        <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,90" sap2010:WorkflowViewState.IdRef="WriteLine_7" Text="Final" />
+                      </State.Entry>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <av:Point x:Key="ShapeLocation">275,370</av:Point>
+                          <av:Size x:Key="ShapeSize">150,60</av:Size>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </State>
                   </Transition.To>
                 </Transition>
               </State.Transitions>
@@ -175,7 +186,7 @@
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
           <Transition.To>
-            <State x:Name="__ReferenceID3" DisplayName="State" sap:VirtualizedContainerService.HintSize="150,60" sap2010:WorkflowViewState.IdRef="State_3">
+            <State x:Name="__ReferenceID2" DisplayName="State" sap:VirtualizedContainerService.HintSize="150,60" sap2010:WorkflowViewState.IdRef="State_3">
               <State.Entry>
                 <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,90" sap2010:WorkflowViewState.IdRef="WriteLine_6" Text="[valor.ToString]" />
               </State.Entry>
@@ -196,18 +207,7 @@
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                   <Transition.To>
-                    <State x:Name="__ReferenceID1" DisplayName="Final State" sap:VirtualizedContainerService.HintSize="150,60" sap2010:WorkflowViewState.IdRef="State_4" IsFinal="True">
-                      <State.Entry>
-                        <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,90" sap2010:WorkflowViewState.IdRef="WriteLine_7" Text="Final" />
-                      </State.Entry>
-                      <sap:WorkflowViewStateService.ViewState>
-                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <av:Point x:Key="ShapeLocation">275,370</av:Point>
-                          <av:Size x:Key="ShapeSize">150,60</av:Size>
-                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                        </scg:Dictionary>
-                      </sap:WorkflowViewStateService.ViewState>
-                    </State>
+                    <x:Reference>__ReferenceID0</x:Reference>
                   </Transition.To>
                 </Transition>
               </State.Transitions>
@@ -223,9 +223,7 @@
               </Assign.Value>
             </Assign>
           </Transition.Action>
-          <Transition.Condition>
-            <VisualBasicValue x:TypeArguments="x:Boolean" DisplayName="Visual basic value" ExpressionText="valor &gt;= 5" />
-          </Transition.Condition>
+          <Transition.Condition>[valor &gt;= 5]</Transition.Condition>
         </Transition>
         <Transition DisplayName="T3" sap:VirtualizedContainerService.HintSize="450,488" sap2010:WorkflowViewState.IdRef="Transition_3">
           <sap:WorkflowViewStateService.ViewState>
@@ -236,7 +234,7 @@
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
           <Transition.To>
-            <x:Reference>__ReferenceID1</x:Reference>
+            <x:Reference>__ReferenceID0</x:Reference>
           </Transition.To>
           <Transition.Condition>
             <VisualBasicValue x:TypeArguments="x:Boolean" DisplayName="Visual basic value" ExpressionText="valor = 0" sap2010:WorkflowViewState.IdRef="VisualBasicValue`1_2" />
@@ -244,15 +242,11 @@
         </Transition>
       </State.Transitions>
     </State>
-    <x:Reference>__ReferenceID2</x:Reference>
-    <x:Reference>__ReferenceID3</x:Reference>
     <x:Reference>__ReferenceID1</x:Reference>
+    <x:Reference>__ReferenceID2</x:Reference>
+    <x:Reference>__ReferenceID0</x:Reference>
     <StateMachine.Variables>
-      <Variable x:TypeArguments="x:Int32" Name="valor">
-        <Variable.Default>
-          <Literal x:TypeArguments="x:Int32" />
-        </Variable.Default>
-      </Variable>
+      <Variable x:TypeArguments="x:Int32" Default="0" Name="valor" />
     </StateMachine.Variables>
   </StateMachine>
 </Activity>

@@ -1,0 +1,9 @@
+﻿There are only 3 activities
+1 - State Machine
+2 - State
+3 - Final State
+
+Difference between State and FInal State
+
+State  - Entry, Exit and Transition
+Final - Entry
