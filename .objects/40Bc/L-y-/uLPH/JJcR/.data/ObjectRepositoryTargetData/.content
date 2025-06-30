@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6COw6U4cwUa07MiFcINr5w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cloud.uipath.com/geniadyoywpv/Producao/orchestrator_/processes" CVScreenId="6510ba74-8e9c-4c7a-a1ab-79c95f647faa" CvTextArea="77, 197, 60, 15" CvTextArgument="Ui Path" CvType="Text" DesignTimeRectangle="76, 193, 61, 24" DesignTimeScaleFactor="1" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl id='ap-shell' tag='AP-SHELL' /&gt;&lt;webctrl shadowhostid='ap-shell' tag='AP-APP-BAR' /&gt;&lt;webctrl shadowhostid='' tag='svg' type='' class='' aaname='      ' /&gt;" Guid="be705e4e-7e00-4631-90e5-cf422d7c3137" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Processes - UiPath Orchestrator' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="dca30b128f1d299eb5aeec9e3be849bb.png" xmlns="">0URs_F4RigEGpXxeof1zIMw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

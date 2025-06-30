@@ -33,6 +33,7 @@
       <x:String>UiPath.Shared.Activities</x:String>
       <x:String>UiPath.Platform.ObjectLibrary</x:String>
       <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -81,6 +82,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:Comment sap:VirtualizedContainerService.HintSize="416,79" sap2010:WorkflowViewState.IdRef="Comment_1" Text="AULA 52 FINALIZADA" />
+    <ui:Comment sap:VirtualizedContainerService.HintSize="416,88" sap2010:WorkflowViewState.IdRef="Comment_1" Text="AULA 55 FINALIZADA" />
+    <ui:Comment sap:VirtualizedContainerService.HintSize="416,98" sap2010:WorkflowViewState.IdRef="Comment_2" Text="PULEI ASSUNTO ANTERIOR E FUI PARA AULA 68&#xD;&#xA;PAREI NO MINUTO 14:40" />
   </Sequence>
 </Activity>

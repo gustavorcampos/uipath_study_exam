@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="xyG9f8kr3UKb2mVAxIPIwg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="1358, -8, 1382, 736" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABuSURBVDhPY/j//z9FGM5gS1rnCcTPgPg/AQxS44nNAGI0w/AzDAP4yy//R8ZmOz6g4NBb/1EwTN9wMoA1ZeN/ZIxuoMn2Dyh4OBogZJX7HxkTMpAmBjwjwYDn2AzwAuLnRBjwBIi9MAwgD/9nAAAtOpLR2NEigwAAAABJRU5ErkJggg==" Selector="&lt;html app='chrome.exe' title='Calendário – Gustavo Rocha Campos – Outlook' /&gt;" Title="Calendário – Gustavo Rocha Campos – Outlook" Url="https://outlook.office.com/calendar/view/workweek" Version="V1">
+      <imageRef attrName="InformativeScreenshot" originalValue="58b4725272b86813f7c43591b819495b.jpg" xmlns="">0EYHvsfSPxkuvanBRANZiJA</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

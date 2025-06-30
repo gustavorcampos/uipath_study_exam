@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome Processes - UiPath Orchestrator",
+  "Type": "App",
+  "Id": "40BcoZCGnEyvOkzqM61HKA",
+  "Reference": "3MHf0IVJmkSzcHqeDq6XKQ/40BcoZCGnEyvOkzqM61HKA",
+  "Created": "2025-06-10T19:36:01.1744824Z",
+  "Updated": "2025-06-10T19:36:01.1744824Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
