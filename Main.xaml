@@ -83,6 +83,6 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:Comment sap:VirtualizedContainerService.HintSize="416,88" sap2010:WorkflowViewState.IdRef="Comment_1" Text="AULA 55 FINALIZADA" />
-    <ui:Comment sap:VirtualizedContainerService.HintSize="416,98" sap2010:WorkflowViewState.IdRef="Comment_2" Text="PULEI ASSUNTO ANTERIOR E FUI PARA AULA 68&#xD;&#xA;PAREI NO MINUTO 14:40" />
+    <ui:Comment sap:VirtualizedContainerService.HintSize="416,79" sap2010:WorkflowViewState.IdRef="Comment_2" Text="PAREI NO 79 CONTINUE NO 80" />
   </Sequence>
 </Activity>
