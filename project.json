@@ -43,7 +43,14 @@
     "processOptions": {
       "ignoredFiles": []
     },
-    "fileInfoCollection": [],
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "10284fb5-f2e9-499b-86be-66912aadbc87",
+        "testCaseType": "TestCase",
+        "fileName": "Test_SEEILA.xaml"
+      }
+    ],
     "saveToCloud": false
   },
   "expressionLanguage": "VisualBasic",
