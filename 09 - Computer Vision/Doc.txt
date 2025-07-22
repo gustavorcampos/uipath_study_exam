@@ -14,3 +14,18 @@ The Screen Refresh (hotkey: F5) button can be used at design time, in case somet
 The Delayed Screen Refresh (hotkey: F2) button performs a refresh of the target app after waiting 3 seconds. The run-time auto-scroll direction is also captured (ScrollDirection property).
 
 https://academy.uipath.com/learning-plans/automation-developer-professional-training-(v2023.10)?lo_cId=1bKNsnOdjMEwNISqfU9BYg
+
+Relative To
+The activities that have the Indicate wizard also include a Relative To feature, where the target is a stable element and you drag a distance relative to it. The main target, the stable one, acts as a proxy target for the second target, the relative one.
+
+This is useful when you want to select an area that is not correspondent to the UI elements that the Computer Vision engine has identified, or when you want to select a general area in the UI without specifying a certain UI element.
+
+The relative target can be either a single point or an area selection in the application you are automating.
+
+Single point selection is normally placed in a spot where Computer Vision detection is not accurate and might not find certain elements. The activities that use single point selection are CV Click, CV Hover, and CV Type Into.
+
+Area selection is used by CV Get Text and is automatically activated for this activity.
+
+Note: Both a point or an area used as a target for Relative To are scalable with the resolution scale you have chosen for your screen. If the scale of the application itself is variable, instead, this feature loses its reliability.
+
+https://docs.uipath.com/activities/other/latest/ui-automAtion/cv-scope (Important CV Method)
