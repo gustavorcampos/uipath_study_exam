@@ -10,3 +10,7 @@ All the Computer Vision activities function only when inside a CV Screen Scope a
 Area selection can also be used to indicate only a portion of the UI of the application you want to automate. This is especially useful in situations where there are multiple text fields that have the same label and cannot be properly identified.
 
 The Screen Refresh (hotkey: F5) button can be used at design time, in case something changes in the target app, enabling you to send a new picture to the Computer Vision server to be analyzed again.
+
+The Delayed Screen Refresh (hotkey: F2) button performs a refresh of the target app after waiting 3 seconds. The run-time auto-scroll direction is also captured (ScrollDirection property).
+
+https://academy.uipath.com/learning-plans/automation-developer-professional-training-(v2023.10)?lo_cId=1bKNsnOdjMEwNISqfU9BYg
