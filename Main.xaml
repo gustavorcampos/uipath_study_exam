@@ -82,6 +82,6 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:Comment sap:VirtualizedContainerService.HintSize="416,118" sap2010:WorkflowViewState.IdRef="Comment_1" Text="REVISÃO AULA 13 FINALIZADA&#xA;&#xA;CONTINUAR EM 14" />
+    <ui:Comment sap:VirtualizedContainerService.HintSize="416,118" sap2010:WorkflowViewState.IdRef="Comment_1" Text="REVISÃO AULA 18 FINALIZADA&#xA;&#xA;CONTINUAR EM 19" />
   </Sequence>
 </Activity>
