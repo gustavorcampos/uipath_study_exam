@@ -2,3 +2,10 @@
 https://docs.uipath.com/studio/standalone/latest/user-guide/about-uipath-remote-runtime
 https://academy.uipath.com/learning-plans/automation-developer-professional-training-(v2023.10)?lo_cId=4oo61gdDEKH5cZ2cKwRhHx (
 Introduction to UiPath Remote Runtime)
+
+To download "Remote Runtime Installer" -> Go to ResourceCenter in Orchestrator (downloads)
+Need to instal the UiPathremoteRuntime.msi in Remote Machine or VDI, CItrix
+
+UiPath Remote Runtime is a component which facilitates the communication between a remote application or desktop and a corresponding UiPath extension installed on a client machine.
+
+Use the following command to install the UiPath Remote Runtime component => UiPathRemoteRuntime.msi ADDLOCAL=RemoteRuntime,RemoteRuntimeTask
