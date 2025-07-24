@@ -9,3 +9,5 @@ Need to instal the UiPathremoteRuntime.msi in Remote Machine or VDI, CItrix
 UiPath Remote Runtime is a component which facilitates the communication between a remote application or desktop and a corresponding UiPath extension installed on a client machine.
 
 Use the following command to install the UiPath Remote Runtime component => UiPathRemoteRuntime.msi ADDLOCAL=RemoteRuntime,RemoteRuntimeTask
+
+Once the UiPath Remote Runtime component is installed, it registers a task in the Task Scheduler so that the UiPathRemoteRuntime.exe process is started at every user login, for every user logged in to the remote server.
