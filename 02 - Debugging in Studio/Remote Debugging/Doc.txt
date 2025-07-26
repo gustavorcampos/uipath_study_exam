@@ -40,3 +40,6 @@ Important things to unnatteend:
 - The user signed in to Studio has permissions to start jobs, and to create and delete storage buckets and storage files in the same folder context as the target robot. In addition, the robot account must have view permissions for storage buckets and storage files.
 - The unattended robot is configured and the machine has one of the following runtime licenses available: Unattended or NonProduction.
 - For debugging foreground processes, the option Run foreground automations is enabled for the robot in Orchestrator.
+
+Limitations:
+When you use a remote machine connection, if you pause debugging for an extended period of time, a Connection Closed error might occur in Studio even though on the remote machine the connection still appears to be active. To avoid this issue, you can increase the TCP idle timeout in your cloud or on-premises load balancer.
