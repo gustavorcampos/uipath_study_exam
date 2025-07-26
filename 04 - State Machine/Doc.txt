@@ -7,3 +7,9 @@ Difference between State and FInal State
 
 State  - Entry, Exit and Transition
 Final - Entry
+
+https://academy.uipath.com/courses/state-machines-in-studio?lo_cId=2Di76YkhR6lTCMHS9Smdc5
+
+Se tiver uma transition no "State" não precisa de condição, porém se tiver mais de uma transition precisa inserir condição para não ficar com erro no "State"
+
+Quando expande o transition tem as 3 atividades: Trigger, Condition e Action
