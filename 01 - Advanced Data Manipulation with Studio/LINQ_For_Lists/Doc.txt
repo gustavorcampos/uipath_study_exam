@@ -1,0 +1,10 @@
+﻿You can write LINQ in 2 ways:
+1 - Method Syntax ex. (array.select(Function(p) p*p)
+2 - Query Syntax ex. (start with from)
+
+To use LINQ its need import:
+- System.Linq
+- System.Linq.Expressions
+- System.Linq.Expressions.Interpreter
+
+dtTest.clone => Só copia os nomes das colunas e não seus dados
