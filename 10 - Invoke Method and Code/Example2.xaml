@@ -75,16 +75,17 @@
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Example2" sap:VirtualizedContainerService.HintSize="896,466.04" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Example2" sap:VirtualizedContainerService.HintSize="1299,466.04" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Int32" Name="sum" />
+      <Variable x:TypeArguments="x:Int32" Name="valueB" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="416,84" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="CommentOut_2">
       <ui:CommentOut.Body>
         <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="513,199" sap2010:WorkflowViewState.IdRef="Sequence_3">
           <sap:WorkflowViewStateService.ViewState>
@@ -115,7 +116,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="416,84" sap2010:WorkflowViewState.IdRef="CommentOut_3">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="CommentOut_3">
       <ui:CommentOut.Body>
         <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_4">
           <sap:WorkflowViewStateService.ViewState>
@@ -133,12 +134,16 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <ui:InvokeCode ContinueOnError="{x:Null}" Code="Dim x,y,sum As Integer&#xD;&#xA;x = 20&#xD;&#xA;y = 60&#xD;&#xA;sum = x + y +valueA&#xD;&#xA;Console.WriteLine(&quot;Sum is: &quot; + sum.ToString)" DisplayName="Invoke Code" sap:VirtualizedContainerService.HintSize="416,188" sap2010:WorkflowViewState.IdRef="InvokeCode_2">
+    <ui:InvokeCode ContinueOnError="{x:Null}" Code="Dim x,y,sum As Integer&#xD;&#xA;x = 20&#xD;&#xA;y = 60&#xD;&#xA;sum = x + y +valueA&#xD;&#xA;Console.WriteLine(&quot;Sum is: &quot; + sum.ToString)&#xD;&#xA;valueB = sum" DisplayName="Invoke Code" sap:VirtualizedContainerService.HintSize="416,197" sap2010:WorkflowViewState.IdRef="InvokeCode_2">
       <ui:InvokeCode.Arguments>
         <InArgument x:TypeArguments="x:Int32" x:Key="valueA">
           <Literal x:TypeArguments="x:Int32" Value="15" />
         </InArgument>
+        <OutArgument x:TypeArguments="x:Int32" x:Key="valueB">
+          <VisualBasicReference x:TypeArguments="x:Int32" ExpressionText="valueB" />
+        </OutArgument>
       </ui:InvokeCode.Arguments>
     </ui:InvokeCode>
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="[valueB.ToString]" />
   </Sequence>
 </Activity>

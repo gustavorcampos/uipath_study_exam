@@ -98,10 +98,10 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Example1" sap:VirtualizedContainerService.HintSize="680,1259" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Example1" sap:VirtualizedContainerService.HintSize="1282,1264" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="textField" />
-      <Variable x:TypeArguments="x:Boolean" Name="check" />
+      <Variable x:TypeArguments="x:Int32" Name="check" />
       <Variable x:TypeArguments="x:String" Default="C:\Temp\Teste\Novo(a) Documento de Texto.txt" Name="path" />
       <Variable x:TypeArguments="x:String" Name="text" />
     </Sequence.Variables>
@@ -110,7 +110,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ufa:ShowFormActivity Height="{x:Null}" InstanceName="{x:Null}" Left="{x:Null}" ShowInTaskbar="{x:Null}" Top="{x:Null}" TopMost="{x:Null}" Width="{x:Null}" DisplayName="Show Form" FormId="00c548d9-d534-4457-8927-00126adcb956" sap:VirtualizedContainerService.HintSize="418,218" sap2010:WorkflowViewState.IdRef="ShowFormActivity_1" IsAsync="True" Title="TESTE TITLE" WindowState="[UiPath.Studio.Forms.Runtime.WindowState.Minimized]">
+    <ufa:ShowFormActivity Height="{x:Null}" InstanceName="{x:Null}" Left="{x:Null}" ShowInTaskbar="{x:Null}" Top="{x:Null}" TopMost="{x:Null}" Width="{x:Null}" DisplayName="Show Form" FormId="00c548d9-d534-4457-8927-00126adcb956" sap:VirtualizedContainerService.HintSize="450,218" sap2010:WorkflowViewState.IdRef="ShowFormActivity_1" IsAsync="True" Title="TESTE TITLE" WindowState="[UiPath.Studio.Forms.Runtime.WindowState.Minimized]">
       <ufa:ShowFormActivity.Arguments>
         <scg:Dictionary x:TypeArguments="x:String, Argument" />
       </ufa:ShowFormActivity.Arguments>
@@ -120,15 +120,15 @@
         </InArgument>
       </ufa:ShowFormActivity.ShowMargin>
     </ufa:ShowFormActivity>
-    <ufa:GetFormFieldsActivity InstanceName="{x:Null}" DisplayName="Get Form Values" FormId="00c548d9-d534-4457-8927-00126adcb956" sap:VirtualizedContainerService.HintSize="418,172" sap2010:WorkflowViewState.IdRef="GetFormFieldsActivity_1">
+    <ufa:GetFormFieldsActivity InstanceName="{x:Null}" DisplayName="Get Form Values" FormId="00c548d9-d534-4457-8927-00126adcb956" sap:VirtualizedContainerService.HintSize="450,172" sap2010:WorkflowViewState.IdRef="GetFormFieldsActivity_1">
       <ufa:GetFormFieldsActivity.Arguments>
         <OutArgument x:TypeArguments="x:String" x:Key="textField">[textField]</OutArgument>
         <OutArgument x:TypeArguments="x:Boolean" x:Key="checkbox">[check]</OutArgument>
       </ufa:GetFormFieldsActivity.Arguments>
     </ufa:GetFormFieldsActivity>
-    <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="418,122" sap2010:WorkflowViewState.IdRef="Delay_1" />
-    <ui:WriteTextFile File="{x:Null}" DisplayName="Write Text File" FileName="[path]" sap:VirtualizedContainerService.HintSize="418,165" sap2010:WorkflowViewState.IdRef="WriteTextFile_1" Text="[textField]" />
-    <If Condition="[check]" sap:VirtualizedContainerService.HintSize="418,484" sap2010:WorkflowViewState.IdRef="If_1">
+    <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="450,122" sap2010:WorkflowViewState.IdRef="Delay_1" />
+    <ui:WriteTextFile File="{x:Null}" DisplayName="Write Text File" FileName="[path]" sap:VirtualizedContainerService.HintSize="450,165" sap2010:WorkflowViewState.IdRef="WriteTextFile_1" Text="[textField]" />
+    <If Condition="[check]" sap:VirtualizedContainerService.HintSize="450,516" sap2010:WorkflowViewState.IdRef="If_1">
       <If.Then>
         <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,173" sap2010:WorkflowViewState.IdRef="Sequence_5">
           <sap:WorkflowViewStateService.ViewState>
@@ -150,7 +150,7 @@
         </Sequence>
       </If.Else>
     </If>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="418,75" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="CommentOut_1">
       <ui:CommentOut.Body>
         <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,135" sap2010:WorkflowViewState.IdRef="Sequence_4">
           <sap:WorkflowViewStateService.ViewState>

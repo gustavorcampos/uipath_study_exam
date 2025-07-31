@@ -4,6 +4,7 @@
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
+    "System.Text.Json": "[8.0.5]",
     "UiPath.Excel.Activities": "[2.24.4]",
     "UiPath.Form.Activities": "[25.2.1]",
     "UiPath.System.Activities": "[25.2.1]",
