@@ -2,3 +2,5 @@
 https://docs.uipath.com/activities/other/latest/ui-automation/computer-vision-activities
 https://academy.uipath.com/learning-plans/automation-developer-professional-training-(v2023.10)?lo_cId=1bKNsnOdjMEwNISqfU9BYg
 --
+
+Interactive Sign In in UiPath allows you to provision Attended Robots and Development (Studio) Robots. This method connects Studio and the Assistant to Orchestrator using user credentials, instead of a machine key. This simplifies robot setup as they are automatically deployed when a user logs in for the first time. 

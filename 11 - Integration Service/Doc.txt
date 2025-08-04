@@ -1,4 +1,5 @@
 ﻿https://docs.uipath.com/integration-service/automation-cloud/latest/usEr-guide/triggers
+https://docs.uipath.com/integration-service/automation-suite/2024.10/user-guide/triggers
 
 Note: The Successful state only indicates that the job was successfully launched. It does not reflect whether the job was successfully executed to the end or not. In case a job fails to start, its State will appear as Failed. Hover with the mouse cursor over the Failed state to view the error message.
 
