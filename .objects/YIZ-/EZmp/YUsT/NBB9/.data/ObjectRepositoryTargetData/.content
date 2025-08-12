@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="bJACcgwE3EK5VtrBG7btlw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="itexams.com/exam/UiADPv1/3" CVScreenId="a014efad-26f8-4f0d-8083-cb29332c237d" CvElementArea="164, 53, 1066, 33" CvType="InputBox" DesignTimeRectangle="201, 59, 927, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='UiADPv1 Exam - Free UiPath Questions and Answers - ITExams.com -*' role='pane' /&gt;&lt;ctrl name='Address and search bar' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='UiADPv1 Exam - Free UiPath Questions and Answers - ITExams.com -*' role='pane' /&gt;&lt;ctrl name='Address and search bar' role='editable text' automationid='' /&gt;" Guid="1a1e5273-7912-4a4b-8daf-40af62e72981" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='UiADPv1 Exam - Free UiPath Questions and Answers - ITExams.com -*' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="501d44bd7d68b3538cb4f0a282bce49e.png" xmlns="">0k717lGHLdkuZjnamvozljA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

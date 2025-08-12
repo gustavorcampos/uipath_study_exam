@@ -1,0 +1,14 @@
+﻿{
+  "Name": "itexams.comexamUiADPv…",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "NBB9Ix-e2EqZ93atRODZ_g",
+  "Reference": "3MHf0IVJmkSzcHqeDq6XKQ/NBB9Ix-e2EqZ93atRODZ_g",
+  "ParentRef": "3MHf0IVJmkSzcHqeDq6XKQ/YUsTYWduKkyVsIzOCD09KQ",
+  "Created": "2025-08-12T11:45:28.1508913Z",
+  "Updated": "2025-08-12T11:45:28.1508913Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
