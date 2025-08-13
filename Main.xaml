@@ -109,19 +109,15 @@
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Default="123" Name="strTeste" />
       <Variable x:TypeArguments="sd:DataTable" Name="dt" />
-      <Variable x:TypeArguments="x:Int32" Name="count">
-        <Variable.Default>
-          <Literal x:TypeArguments="x:Int32" />
-        </Variable.Default>
-      </Variable>
+      <Variable x:TypeArguments="x:Int32" Default="0" Name="count" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:Comment sap:VirtualizedContainerService.HintSize="502,165" sap2010:WorkflowViewState.IdRef="Comment_1" Text="IT Exam&#xA;&#xA;Questão finalizada 145&#xA;&#xA;Continuar em: 146" />
-    <ui:InterruptibleWhile CurrentIndex="{x:Null}" DisplayName="While" sap:VirtualizedContainerService.HintSize="502,433" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
+    <ui:Comment sap:VirtualizedContainerService.HintSize="502,165" sap2010:WorkflowViewState.IdRef="Comment_1" Text="IT Exam&#xA;&#xA;Questão finalizada 165&#xA;&#xA;Continuar em: 166" />
+    <ui:InterruptibleWhile CurrentIndex="{x:Null}" Condition="[count&lt;12]" DisplayName="While" sap:VirtualizedContainerService.HintSize="502,433" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
       <ui:InterruptibleWhile.Body>
         <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="468,287" sap2010:WorkflowViewState.IdRef="Sequence_4">
           <sap:WorkflowViewStateService.ViewState>
@@ -140,9 +136,6 @@
           </Assign>
         </Sequence>
       </ui:InterruptibleWhile.Body>
-      <ui:InterruptibleWhile.Condition>
-        <VisualBasicValue x:TypeArguments="x:Boolean" DisplayName="Visual basic value" ExpressionText="count&lt;12" />
-      </ui:InterruptibleWhile.Condition>
     </ui:InterruptibleWhile>
     <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="502,57" sap2010:WorkflowViewState.IdRef="CommentOut_1">
       <ui:CommentOut.Body>
